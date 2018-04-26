@@ -1,0 +1,29 @@
+
+<h1>Ce site comprend le test de backend<strong> Co. Tino & Mino</strong></h1>
+<div class="shadow mt-5 p-5 bg-light rounded">
+  <h2>Liste des utilisateurs :</h2>
+  <table class="table rounded">
+    <thead>
+      <tr class="bg-primary">
+        <th scope="col">#</th>
+        <th scope="col">Username</th>
+        <th scope="col">Bio</th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <%=%>
+    
+      <% @users.each do |u| %>
+      <tr>
+        <th scope="row"><%= u.id%></th>
+        <td><%= u.username%></td>
+        <td><%= u.bio%></td>
+        <td><button type="button" class="btn btn-dark">Stylé ;)</button></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
