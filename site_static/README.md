@@ -1,24 +1,19 @@
-# README
+# Site_static
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Un projet sur rails pour un site static
 
-Things you may want to cover:
+#Test 
 
-* Ruby version
+* Ruby version 2.5 ; Rails 2.5 ; 
 
-* System dependencies
+* Rendez-vous dans le dossier à corriger et installer bundle sur votre terminal
 
-* Configuration
+* Commande : 
 
-* Database creation
+rails db:migrate
+rails server ==> localhost:3000
 
-* Database initialization
+#Peer_Programming
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+@tinosam
+@Hari
